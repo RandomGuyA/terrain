@@ -19,8 +19,4 @@ public class Game {
     public void update(){
 
     }
-
-    public void loadAssets() {
-        terrain.loadAssets();
-    }
 }

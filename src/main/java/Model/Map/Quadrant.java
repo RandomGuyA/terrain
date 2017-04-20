@@ -1,13 +1,11 @@
 package Model.Map;
 
-
-import libnoiseforjava.util.ColorCafe;
+import Helpers.Colour;
 
 public class Quadrant {
 
-    private ColorCafe color;
+    private Colour colour;
     private int s, t, x, y;
-
 
     public Quadrant(int s, int t, int x, int y) {
         this.s = s;
@@ -32,14 +30,6 @@ public class Quadrant {
         this.y = y;
     }
 
-    public ColorCafe getColor() {
-        return color;
-    }
-
-    public void setColor(ColorCafe color) {
-        this.color = color;
-    }
-
     public int getS() {
         return s;
     }
@@ -54,5 +44,13 @@ public class Quadrant {
 
     public void setT(int t) {
         this.t = t;
+    }
+
+    public Colour getColour() {
+        return colour;
+    }
+
+    public void setColour(Colour colour) {
+        this.colour = colour;
     }
 }

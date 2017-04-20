@@ -1,8 +1,6 @@
 package Global;
 
-/**
- * Created by Random Guy A on 19/04/2017.
- */
+
 public class Config {
 
     public static String TITLE = "Terrain Generator";

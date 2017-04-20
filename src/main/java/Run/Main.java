@@ -10,8 +10,8 @@ public class Main {
 
     public static void createAndShowGUI(){
 
-        Game game = new Game();
         MainView view = new MainView();
+        Game game = new Game();
         new MainController(game, view);
 
     }

@@ -47,13 +47,13 @@ public class MainView {
 
     public void startGame(Game game) {
         this.game = game;
-        game.loadAssets();
         gameLoop();
         Display.destroy();
         System.exit(1);
     }
 
     private void gameLoop() {
+        System.out.println("Start Game Loop");
         while (!Display.isCloseRequested()) {
             render();
             logic();
