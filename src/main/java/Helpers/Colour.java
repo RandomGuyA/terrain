@@ -52,17 +52,17 @@ public class Colour {
         blueInt = rgb & 0xFF;
         alphaInt = 255;
         IntToFloat(redInt, greenInt, blueInt, alphaInt);
-
+        IntToValue(redInt,  greenInt, blueInt,  alphaInt);
     }
 
     public String toString(){
 
         String rgbString = "\nInt RGBA( "+redInt+" , "+greenInt+" , "+blueInt+" , "+alphaInt+" )";
-        String floatstring = "\nfloat RGBA( "+redFloat+" , "+greenFloat+" , "+blueFloat+" , "+alphaFloat+" )";
+        String floatString = "\nfloat RGBA( "+redFloat+" , "+greenFloat+" , "+blueFloat+" , "+alphaFloat+" )";
         String rgbaValue = "\nRGBA Value: "+rgba;
         String rgbValue = "\nRGB Value: "+rgb;
 
-        return rgbString + floatstring + rgbaValue + rgbValue;
+        return rgbString + floatString + rgbaValue + rgbValue;
     }
 
     private void IntToValue(int redInt, int greenInt, int blueInt, int alphaInt) {
@@ -73,7 +73,7 @@ public class Colour {
     private void IntToFloat(int redInt, int greenInt, int blueInt, int alphaInt) {
         redFloat = (1.0f / 255) * redInt;
         greenFloat = (1.0f / 255) * greenInt;
-        redFloat = (1.0f / 255) * blueInt;
+        blueFloat = (1.0f / 255) * blueInt;
         alphaFloat = (1.0f / 255) * alphaInt;
     }
 
