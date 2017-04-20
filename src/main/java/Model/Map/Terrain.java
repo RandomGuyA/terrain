@@ -211,7 +211,6 @@ public class Terrain {
     public void generateTerrain() {
 
         System.out.println("Generating Terrain");
-        //this is hardcoded for the png, change to generated terrain later
 
         for (int y = 0; y < TILE_COUNT_X; y++) {
             for (int x = 0; x < TILE_COUNT_Y; x++) { //-1 stops out of bounds exception

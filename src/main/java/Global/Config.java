@@ -9,5 +9,4 @@ public class Config {
     public static int TILE_COUNT_X = 255;
     public static int TILE_COUNT_Y = 255;
 
-
 }

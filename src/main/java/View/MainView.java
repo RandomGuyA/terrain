@@ -18,7 +18,7 @@ public class MainView {
     private Game game;
     private float translate_x = 0;
     private float translate_y = 0;
-    private float scale = 1.0f;
+    private float scale = 0.25f;
     private float delta = 30.0f;
 
     public MainView() {
