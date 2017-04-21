@@ -1,4 +1,4 @@
-package NoiseModules;
+package noiseModules;
 
 
 import libnoiseforjava.module.ModuleBase;

@@ -1,13 +1,12 @@
-package View;
+package view;
 
 
-import Global.Config;
-import Model.Game;
+import global.Config;
+import model.Game;
 import org.lwjgl.LWJGLException;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
-import org.lwjgl.opengl.GL11;
 
 import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.opengl.GL11.GL_MODELVIEW;

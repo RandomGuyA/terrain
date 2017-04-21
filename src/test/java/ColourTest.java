@@ -1,5 +1,5 @@
-import Helpers.Assets;
-import Helpers.Colour;
+import helpers.Assets;
+import helpers.Colour;
 
 import org.junit.Test;
 

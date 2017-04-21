@@ -1,10 +1,10 @@
-package Model.Map;
+package model.map;
 
-import Global.Config;
-import Helpers.Assets;
-import Helpers.Colour;
-import Helpers.Util;
-import NoiseModules.Radial;
+import global.Config;
+import helpers.Assets;
+import helpers.Colour;
+import helpers.Util;
+import noiseModules.Radial;
 import libnoiseforjava.exception.ExceptionInvalidParam;
 import libnoiseforjava.module.Perlin;
 import libnoiseforjava.util.*;

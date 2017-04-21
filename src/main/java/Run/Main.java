@@ -1,8 +1,8 @@
-package Run;
+package run;
 
-import Controller.MainController;
-import Model.Game;
-import View.MainView;
+import controller.MainController;
+import model.Game;
+import view.MainView;
 
 import javax.swing.*;
 

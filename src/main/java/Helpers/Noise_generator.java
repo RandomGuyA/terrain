@@ -1,8 +1,8 @@
-package Helpers;
+package helpers;
 
 import java.util.Random;
 
-import static Helpers.SimplexNoise.noise;
+import static helpers.SimplexNoise.noise;
 
 
 public final class Noise_generator {

@@ -1,6 +1,6 @@
-package Model;
+package model;
 
-import Model.Map.Terrain;
+import model.map.Terrain;
 
 
 public class Game {

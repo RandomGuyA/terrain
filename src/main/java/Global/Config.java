@@ -1,4 +1,4 @@
-package Global;
+package global;
 
 
 public class Config {

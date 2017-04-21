@@ -1,4 +1,4 @@
-package Model.Map;
+package model.map;
 
 import org.lwjgl.BufferUtils;
 import org.lwjgl.opengl.GL12;

@@ -1,8 +1,8 @@
-package Controller;
+package controller;
 
 
-import Model.Game;
-import View.MainView;
+import model.Game;
+import view.MainView;
 
 public class MainController {
 

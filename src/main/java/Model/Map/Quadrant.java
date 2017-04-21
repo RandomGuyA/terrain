@@ -1,6 +1,6 @@
-package Model.Map;
+package model.map;
 
-import Helpers.Colour;
+import helpers.Colour;
 
 public class Quadrant {
 

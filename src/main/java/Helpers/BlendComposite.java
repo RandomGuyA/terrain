@@ -25,7 +25,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package Helpers;
+package helpers;
 
 import java.awt.*;
 import java.awt.image.ColorModel;

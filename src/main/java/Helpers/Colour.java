@@ -1,4 +1,4 @@
-package Helpers;
+package helpers;
 
 import java.awt.*;
 import static java.lang.Math.floor;
